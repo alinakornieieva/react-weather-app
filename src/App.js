@@ -8,7 +8,10 @@ function App() {
       <h1>Weather App</h1>
       <Search />
       </header>
-      <a href="https://github.com/alinakornieieva/react-weather-app" rel="noreferrer" target="_blank">Open-source code</a>
+      <p>
+
+      <a href="https://github.com/alinakornieieva/react-weather-app" rel="noreferrer" target="_blank">Open-source code </a>by Alina Kornieieva
+      </p>
     </div>
   );
 }

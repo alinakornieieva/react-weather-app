@@ -1,8 +1,26 @@
-.App {
+header {
   text-align: center;
+  background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+  border: 1.5px solid black;
+  border-radius: 4px;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+p{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
 }
 
 li{
   list-style: none;
 }
-
