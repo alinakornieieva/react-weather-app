@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 
-export default function searchEngine() {
+export default function SearchEngine() {
   let [city, showCity] = useState(null);
   let [temp1, setTemp] = useState(null);
   let [description1, setDescription] = useState(null);
@@ -32,7 +32,7 @@ export default function searchEngine() {
     setWind(<li>Wind: {wind}km/h</li>);
     setIcon(
       <li>
-        <img src={icon} />
+        <img src={icon} alt={icon} />
       </li>
     );
   }
